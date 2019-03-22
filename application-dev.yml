@@ -11,3 +11,15 @@ sql:
     customer2:
       url: url2-dev
       cred: cred2-dev
+
+dynamo:
+  default:
+    url: url-dynamo-prod
+    cred: cred-dev
+
+    customer1:
+      url: url1-dynamo-prod
+      cred: cred1-dev
+    customer2:
+      url: url2-dynamo-prod
+      cred: cred2-dev
