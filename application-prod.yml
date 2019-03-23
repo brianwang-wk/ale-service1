@@ -2,24 +2,24 @@
 
 sql:
   default:
-    url: url-dev
-    cred: cred-dev
+    url: url-prod
+    cred: cred-prod
 
-    customer1:
-      url: url1-dev
-      cred: cred1-dev
-    customer2:
-      url: url2-dev
-      cred: cred2-dev
+  customer1:
+    url: url1-prod
+    cred: cred1-prod
+  customer2:
+    url: url2-prod
+    cred: cred2-prod
 
 dynamo:
   default:
-    url: url-dynamo-dev
-    cred: cred-dev
+    url: url-dynamo-prod
+    cred: cred-prod
 
-    customer1:
-      url: url1-dynamo-dev
-      cred: cred1-dev
-    customer2:
-      url: url2-dynamo-dev
-      cred: cred2-dev
+  customer1:
+    url: url1-dynamo-prod
+    cred: cred1-prod
+  customer2:
+    url: url2-dynamo-prod
+    cred: cred2-prod
